@@ -52,30 +52,21 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: #e96800;
-    color: lavender;
+    align-items: center;
+    padding: 30px 5%;
 }
 #social li{
     display:inline;
+    margin-right: 25px;
 }
-#banner {
-    padding: 20px;
+#credit a{
+    color:lavender;
+    font-size: 18px;
+    font-weight: bolder;
 }
-.links_list {
-    display: flex;
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.fa:hover{
+    filter: grayscale(0%);
 }
-.links_list img {
-    width: 100px;
-}
-.links_list a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
-    padding: 20px;
-    text-decoration: none;
+.fa{
+    filter: grayscale(90%);
 }
