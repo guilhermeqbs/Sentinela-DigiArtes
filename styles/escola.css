@@ -12,13 +12,13 @@
     display: flex;
     margin: 25px auto;
 }
-.imagen{
+.imagem{
     margin-left: 3%;
     width: 29.33%;
     filter: grayscale(90%);
     text-align: center;
 }
-.imagen img{
+.imagem img{
     width: 100%;
     margin: 15px auto;
 }

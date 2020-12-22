@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    color: #333;
 }
 header{
     display: flex;
@@ -33,7 +34,7 @@ p{
     color: lavender;
 }
 #menu_header {
-    margin: 20px 35px 20px 35px;
+    margin: 0px 35px 20px 35px;
 }
 #menu_header a{
     color: lavender;
@@ -71,4 +72,10 @@ footer{
 }
 .fa{
     filter: grayscale(90%);
+}
+#menu_header, social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
