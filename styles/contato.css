@@ -1,0 +1,43 @@
+#main_container{
+    margin: 1% 3%;
+    width: 95%;
+}
+.row{
+    margin: 60px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#foto_escola, #formulario{
+    width: 29.33%;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+}
+#mapa{
+    width: 29.33%;
+    max-width:600px; 
+    max-height: 450px;
+    min-width: 340px;
+    min-height: 450px;
+}
+#mapa iframe{
+    width: 98%;
+    height: 98%;
+}
+#foto_escola img{
+    width: 98%;
+    max-width: 291px;
+}
+#dados{
+    width: 47%;
+    white-space: pre-line;
+}
+.formu{
+    width: 47%;
+    display: flex;
+    margin: 30px 0;
+}
+.formu label{
+    margin-right: 6px;
+}
