@@ -1,7 +1,7 @@
 #main_container{
     margin: 1%;
 }
-#titulo{
+#subtitulo{
     margin-bottom: 30px;
 }
 .integrante{
@@ -11,13 +11,14 @@
 .integrante img{
     max-height: 235px;
 }
+.nome_integrante{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
 .dados{
     max-width: 34.72%;
 }
 .dados p {
     word-break: break-all;
-}
-.nome_integrante, #titulo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
+    text-align: justify;
 }

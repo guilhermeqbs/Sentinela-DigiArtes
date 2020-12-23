@@ -4,10 +4,6 @@
 #texto{
     margin: 15px 3% auto;
 }
-#titulo{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-}
 #ilustracoes{
     display: flex;
     margin: 25px auto;
